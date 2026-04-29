@@ -1,6 +1,5 @@
 
 A modern, minimal note-taking app built with React + Zustand. Fast, reactive, and keyboard-first.
-
 ## Features
 - **Instant UI** - Optimistic updates with Zustand for zero-latency feel
 - **Auto-save** - Debounced saving so you never lose a thought
@@ -44,7 +43,7 @@ pnpm install
 ### 2. Setting Up Database
 
 #### 1. Make sure PostgreSQL is installed and running
-#### 2. Create a new database, then run this SQL:
+#### 2. Create a new database named `notiz`, then run this SQL:
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS "pgcrypto";
@@ -131,3 +130,5 @@ cd apps/server && pnpm dev
 Frontend runs at `http://localhost:5173`  
 Backend runs at `http://localhost:3000`
 ```
+### 6. Funfact
+`notiz` is a german word for `note` in singular form.
