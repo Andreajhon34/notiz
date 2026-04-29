@@ -35,7 +35,7 @@ A modern, minimal note-taking app built with React + Zustand. Fast, reactive, an
 ## Getting Started
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/username/note-app.git
+https://github.com/Andreajhon34/notiz.git
 cd notiz
 pnpm install
 ```
