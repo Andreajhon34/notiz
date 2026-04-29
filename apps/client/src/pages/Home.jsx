@@ -20,7 +20,7 @@ export default function Home() {
     <div className="flex flex-1 flex-col p-10 gap-10">
       <div className="flex flex-1 flex-col justify-center container mx-auto px-4">
         <section className="flex flex-col gap-2">
-          <h1 className="text-4xl font-bold tracking-tight mx-auto">
+          <h1 className="text-4xl font-bold tracking-tight mx-auto text-center">
             👋 Hi, {user?.username}
           </h1>
           <p className="text-muted-foreground mx-auto">

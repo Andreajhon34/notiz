@@ -7,9 +7,9 @@ import "@blocknote/shadcn/style.css";
 import { useRef, useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import { useShallow } from "zustand/shallow";
-import privateApi from "../../../src/lib/axios/privateApi";
-import useNotesStore from "../../../src/lib/useNotesStore";
-import { useTheme } from "../../../src/components/themeProvider";
+import privateApi from "../../../lib/axios/privateApi";
+import useNotesStore from "../../../lib/useNotesStore";
+import { useTheme } from "../../../components/themeProvider";
 
 const Editor = ({ editor, onChange, onBlur, onKeyDown, onKeyUp }) => {
   const { theme } = useTheme();

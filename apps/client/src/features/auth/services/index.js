@@ -1,4 +1,4 @@
-import authApi from "../../../src/lib/axios/authApi";
+import authApi from "../../../lib/axios/authApi";
 
 export const loginService = async (data) => {
   const res = await authApi.post("/login", data);

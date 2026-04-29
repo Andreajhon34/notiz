@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-import { useAuthStore } from "../../../src/lib/useAuthStore";
+import { useAuthStore } from "../../../lib/useAuthStore";
 import { useShallow } from "zustand/shallow";
 import axios from "axios";
 

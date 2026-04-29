@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import useNotesStore from "../../../src/lib/useNotesStore";
-import privateApi from "../../../src/lib/axios/privateApi";
+import useNotesStore from "../../../lib/useNotesStore";
+import privateApi from "../../../lib/axios/privateApi";
 
 const useNote = (id) => {
   const [isLoading, setIsLoading] = useState(true);
