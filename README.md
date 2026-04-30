@@ -29,7 +29,6 @@ A modern, minimal note-taking app built with React + Zustand. Fast, reactive, an
 | **PostgreSQL** | Relational database for notes & users |
 | **JWT + Session Hybrid** | Access token + refresh token for secure auth |
 | **bcrypt** | Password hashing |
-| **Zod** | Runtime validation for request bodies |
 
 
 ## Getting Started
